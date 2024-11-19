@@ -12,20 +12,7 @@
     flex-direction: column;
     justify-content: space-around;
 } */
-
-.commercial{
-    height: 60vh;
-    width: 100%;
-}
-
-#video{
-    object-fit: initial;
-    height: 100%;
-    width: 100%;
-
-}
-
-.nav{
+ .nav{
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -46,9 +33,30 @@ a{
     height: 10vh;
 }
 
+.commercial{
+    height: 60vh;
+    width: 100%;
+}
+
+#video{
+    object-fit: initial;
+    height: 100%;
+    width: 100%;
+
+}
+
+
 .images{
-    width: 20vh;
+    width: 22vh;
     height: 20vh;
+}
+
+h5{
+    color: black;
+}
+
+p{
+    color: black;
 }
 
 
