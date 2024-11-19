@@ -18,7 +18,7 @@
     width: 100%;
 }
 
-.video{
+#video{
     object-fit: initial;
     height: 100%;
     width: 100%;
@@ -30,6 +30,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0%;
 
 
 }
@@ -58,17 +60,17 @@ a{
     justify-content: space-around;
 }
 
-.Shoes{
+.Shoes-box{
     display: flex;
     justify-content: space-around;
 }
 
-.Shirts{
+.Shirts-box{
     display: flex;
     justify-content: space-around;
 }
 
-.Pants{
+.Pants-box{
     display: flex;
     justify-content: space-around;
 }
