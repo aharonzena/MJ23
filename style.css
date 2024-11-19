@@ -6,12 +6,12 @@
 }
 
 
-.container{
+/* .container{
     height: 100vh;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-}
+} */
 
 .commercial{
     height: 50vh;
@@ -19,7 +19,10 @@
 }
 
 .video{
-    object-fit: cover;
+    object-fit: initial;
+    height: 100%;
+    width: 100%;
+
 }
 
 .nav{
@@ -42,6 +45,30 @@ a{
 }
 
 .images{
-    width: 10vh;
-    height: 10vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+
+.Categories{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Shoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Shirts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Pants{
+    display: flex;
+    justify-content: space-around;
 }
