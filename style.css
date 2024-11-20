@@ -93,7 +93,7 @@ a {
     border-radius: 0.4cm;
     border-color:  rgba(99, 100, 102, 0.944);
     box-shadow: 2px 2px 3px 3px rgba(99, 100, 102, 0.944);
-    transition: 1s;
+    transition: 1.1s;
 }
 
 .images:hover{
@@ -101,12 +101,12 @@ a {
 }
 
 
-h5 {
+h4{
     color: white;
     transition: 1s;
 }
 
-h5:hover{
+h4:hover{
     transform: translateY(2px);
 }
 
@@ -174,11 +174,15 @@ p:hover{
    
 }
 
-.Social {
+.Social{
     width: 5vh;
     height: 5vh;
     margin: 5vh;
-    
+    transition: 1s;    
+}
+
+.Social:hover{
+    transform: translateY(-6px);
 }
 
 
@@ -203,9 +207,9 @@ p:hover{
     }
 
     .images {
-        width: 100%;
+        width: 22vh;
         height: 20vh;
-    }
+        }
 
 
 
@@ -216,7 +220,7 @@ p:hover{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        background-color: rgb(236, 248, 248);
+        background-image: radial-gradient(circle, red, rgb(135, 12, 12), black);
     }
 
     .Shoes-box {
@@ -225,7 +229,7 @@ p:hover{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: white;
+        background-color: transparent;
         margin-top: 3vh;
     }
 
@@ -235,7 +239,7 @@ p:hover{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: white;
+        background-color: transparent;
         margin-top: 3vh;
 
 
@@ -247,7 +251,7 @@ p:hover{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: white;
+        background-color: transparent;
         margin-top: 3vh;
 
     }
@@ -258,7 +262,7 @@ p:hover{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: white;
+        background-color: transparent;
         margin-top: 3vh;
 
 
