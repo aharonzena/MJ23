@@ -91,15 +91,35 @@ a {
     width: 22vh;
     height: 20vh;
     border-radius: 0.4cm;
+    border-color:  rgba(99, 100, 102, 0.944);
+    box-shadow: 2px 2px 3px 3px rgba(99, 100, 102, 0.944);
+    transition: 1s;
 }
+
+.images:hover{
+    transform:scale(1.05)
+}
+
 
 h5 {
     color: white;
+    transition: 1s;
+}
+
+h5:hover{
+    transform: translateY(2px);
 }
 
 p {
     color: white;
+    transition: 1s;
 }
+
+
+p:hover{
+    transform: translateY(2px);
+}
+
 
 
 .Categories {
