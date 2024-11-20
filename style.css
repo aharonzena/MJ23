@@ -1,44 +1,45 @@
-*{
+* {
     /* border: 1px solid red; */
     margin: 0%;
     padding: 0%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-/* .container{
-    height: 100vh;
-    display:flex;
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-} */
- .nav{
+    justify-content: space-between;
+}
+
+.nav {
     background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: sticky;
     top: 0%;
-
+    z-index: 1;
 
 }
 
-a{
+a {
     text-decoration: none;
     color: azure;
 }
 
-.Logo{
+.Logo {
     width: 10vh;
     height: 10vh;
 }
 
-.commercial{
+.commercial {
     height: 60vh;
     width: 100%;
 }
 
-#video{
+#video {
     object-fit: initial;
     height: 100%;
     width: 100%;
@@ -46,21 +47,21 @@ a{
 }
 
 
-.images{
+.images {
     width: 22vh;
     height: 20vh;
 }
 
-h5{
+h5 {
     color: black;
 }
 
-p{
+p {
     color: black;
 }
 
 
-.Categories{
+.Categories {
     width: 100%;
     height: 150vh;
     display: flex;
@@ -69,14 +70,14 @@ p{
     background-color: rgb(236, 248, 248);
 }
 
-.Shoes-box{
+.Shoes-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
 }
 
-.Shirts-box{
+.Shirts-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -85,7 +86,7 @@ p{
 
 }
 
-.Pants-box{
+.Pants-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,11 +94,93 @@ p{
 
 }
 
-.other-items-box{
+.other-items-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
 
+
+}
+
+@media (max-width: 768px) {
+
+
+
+
+    .commercial {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .container {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .images {
+        width: 100%;
+        height: 20vh;
+    }
+
+
+
+    .Categories {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(236, 248, 248);
+    }
+
+    .Shoes-box {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        margin-top: 3vh;
+    }
+
+    .Shirts-box {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        margin-top: 3vh;
+
+
+    }
+
+    .Pants-box {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        margin-top: 3vh;
+
+    }
+
+    .other-items-box {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        margin-top: 3vh;
+
+
+    }
 
 }
