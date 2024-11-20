@@ -25,13 +25,22 @@
 
 }
 
-/* 
+.IconBox{
+    width: 0vh;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:0;
+}
+
+
 .Icons{
     height: 3vh;
     width: 3vh; 
     background-color: aliceblue;
     margin-left: -vh ;
-} */
+}
 
 .details {
     background-color: black;
@@ -70,7 +79,7 @@ a {
 }
 
 .Logo {
-    width: 10vh;
+    width: 12.5vh;
     height: 10vh;
 }
 
