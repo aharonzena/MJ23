@@ -66,30 +66,38 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: rgb(236, 248, 248);
 }
 
 .Shoes-box{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: white;
 }
 
 .Shirts-box{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+
 }
 
 .Pants-box{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
 }
 
 .other-items-box{
     display: flex;
     justify-content: space-around;
-}
+    align-items: center;
+    background-color: white;
 
-/* h3{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
+
+}
