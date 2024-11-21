@@ -126,8 +126,8 @@ a {
 }
 
 .images:hover{
-    transform:scale(1.05);
-    box-shadow: 2px 2px 3px 3px rgba(245, 245, 245, 0.773);
+    transform:scale(1.03);
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(245, 245, 245, 0.566);
     
 }
 
