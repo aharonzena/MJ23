@@ -153,6 +153,15 @@ h4:hover{
     transform: translateY(2px);
 }
 
+h5{
+    color: white;
+    transition: 1s;
+}
+
+h5:hover{
+    transform: translateY(2px);
+}
+
 
 p {
     color: white;
