@@ -65,7 +65,6 @@
     margin-left:0vh;
     opacity: 70%;
     transition: 0.5s;
-
 }
 
 .IconsSec:hover{
@@ -140,8 +139,8 @@ a {
 
 .images:hover{
     transform:scale(1.03);
-    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(245, 245, 245, 0.566);
-    
+    /* box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(245, 245, 245, 0.566); */
+    box-shadow: rgba(245, 245, 245, 0.566) 0px 2px 7px 0px, rgba(245, 245, 245, 0.566) 0px 0px 0px 1px;
 }
 
 
