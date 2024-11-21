@@ -40,6 +40,13 @@
     background-color: white;
     margin-left: -vh;
     border-radius: 35%;
+    opacity: 70%;
+    transition: 0.5s;
+
+}
+
+.Icons:hover{
+    opacity: 100%;
 }
 
 
@@ -55,10 +62,16 @@
 .IconsSec{
     height: 3vh;
     width: 3vh; 
-    /* background-color: black; */
-    margin-left:vh ;
-    /* margin-right: 0vh; */
+    margin-left:0vh;
+    opacity: 70%;
+    transition: 0.5s;
+
 }
+
+.IconsSec:hover{
+    opacity: 100%;
+}
+
 
 /* 
 .details {
