@@ -118,13 +118,25 @@ a {
 .commercial {
     height: 60vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 #video {
     object-fit: initial;
     height: 100%;
     width: 100%;
+    position: relative;
 
+}
+
+#Moto{
+    position: absolute;
+    z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    -webkit-text-stroke: 1.2px rgba(255, 217, 0, 0.668);
 }
 
 
@@ -251,6 +263,15 @@ p:hover{
         width: 100%;
     }
 
+    #Moto{
+        position: absolute;
+        z-index: 1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: x-large;
+        -webkit-text-stroke: 1px rgba(255, 217, 0, 0.668);
+    }
+    
+    
     .container {
         min-height: 100vh;
         width: 100%;
